@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blawg | A blogsite</title>
+    <link rel="icon" type="image/x-icon" href="logo.svg" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/7779a82539.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,800;1,800&family=Oxygen:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <a href="index.html"
+          ><h1>
+            <span><i class="fa-solid fa-fan"></i></span>blawg.
+          </h1></a
+        >
+        <nav class="navbar">
+          <a href="#hero" class="navLink">Home</a>
+          <a href="allBlogs.html" class="navLink">All Blogs</a>
+          <a href="#recentBlogs" class="navLink">Recent Blogs</a>
+        </nav>
+      </header>
+      <section id="hero">
+        <div class="imgContainer"><img src="heroSvg.svg" /></div>
+        <div class="textContainer">
+          <h1>Get to <span>read</span> my blogs here</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+            doloribus dolores sunt magni sequi a provident, sed accusantium in
+            necessitatibus voluptas illum alias, odio natus dolore eum? Impedit
+            illum accusantium, rem quia, nihil totam, assumenda amet officiis
+            reprehenderit quis quisquam.
+          </p>
+          <div class="btnPanel">
+            <a href="#recentBlogs"
+              ><button class="btn" id="btn1">Recent Blogs</button></a
+            >
+            <a href="allBlogs.html"
+              ><button class="btn" id="btn2">See All Blogs</button></a
+            >
+          </div>
+        </div>
+      </section>
+      <section id="recentBlogs">
+        <h1>Recent Blogs</h1>
+        <div class="recentBlogsContainer">
+          <article class="blogCard">
+            <div class="textContainer">
+              <h1>My Blog One</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Officiis in possimus quam ut totam repellat neque culpa a
+                aperiam debitis.
+              </p>
+              <a href="allBlogs.html#blog1" target="_blank"
+                ><button class="btn continueBtn">Continue reading</button></a
+              >
+            </div>
+            <div class="imgContainer">
+              <img src="blogImgs/1.jpg" />
+            </div>
+          </article>
+          <article class="blogCard">
+            <div class="textContainer">
+              <h1>My Blog Two</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Officiis in possimus quam ut totam repellat neque culpa a
+                aperiam debitis.
+              </p>
+              <a href="allBlogs.html#blog2" target="_blank"
+                ><button class="btn continueBtn">Continue reading</button></a
+              >
+            </div>
+            <div class="imgContainer">
+              <img src="blogImgs/2.jpg" />
+            </div>
+          </article>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
